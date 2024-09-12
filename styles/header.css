@@ -6,8 +6,19 @@ header {
   display: flex;
   gap: 32px;
 }
+#profile img {
+  border-radius: 50%;
+  border: 4px solid;
+  border-color: var(--surface-color);
+  transition: 0.2s;
+}
+#profile img:hover {
+  border-color: var(--brand-color);
+}
+
 #profile > div {
   max-width: 384px;
+  color: var(--text-color-secondary);
 }
 #profile h1 {
   font: var(--text-lg);
@@ -15,7 +26,7 @@ header {
   margin-bottom: 8px;
 }
 #profile p {
-  color: var(--text-color-secundary);
+  color: var(--text-color-secondary);
 }
 #about {
   display: flex;

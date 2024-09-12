@@ -1,9 +1,8 @@
 body {
-  font: var(--text);
 }
 
 nav {
-  font: var(--text);
+  font: 16px/150% var(--font-family);
   display: flex;
   justify-content: space-between;
   align-items: center;

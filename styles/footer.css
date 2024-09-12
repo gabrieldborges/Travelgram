@@ -1,0 +1,13 @@
+footer {
+  font: 14px/150% var(--font-family);
+  color: var(--text-color-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+}
+footer div {
+  padding-block: 4px;
+  display: flex;
+  gap: 24px;
+}
